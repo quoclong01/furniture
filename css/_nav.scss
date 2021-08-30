@@ -1,0 +1,58 @@
+.nav {
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+    }
+    &-menu {
+        display: flex;
+        gap: 0 30px;
+    }
+    &-item {
+        height: 34px;
+    }
+    &-link {
+        color: #000;
+        font-weight: 600;
+        padding: 5px 15px 5px 10px;
+        display: inline-block;
+        position: relative;
+        &:hover {
+            border-bottom: 2px solid;
+        }
+    }
+    &-auth {
+        display: flex;
+        &-link:not(:last-child){
+            margin-right: 25px;
+        }
+        &-link {
+            display: block;
+            position: relative;
+            transition: opacity 0.3s ease-in-out;
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+    .icon-basket {
+        &:after {
+            content: '2';
+            position: absolute;
+            top: -10px;
+            right: -5px;
+            font-size: 10px;
+            width: 15px;
+            height: 15px;
+            background-color: red;
+            border-radius: 50%;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+

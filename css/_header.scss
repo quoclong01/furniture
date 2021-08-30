@@ -1,0 +1,38 @@
+.header {
+    position: relative;
+    margin-top: 50px;
+    &-content {
+        z-index: 999;
+        position: relative;
+    }
+    &-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        img {
+            width: 1022px;
+            height: 853px;
+            object-fit: cover;
+        }
+    }
+    &-heading {
+        font-size: 80px;    
+        line-height: 1;
+        margin-bottom: 70px;
+        span {
+            display: block;
+        }
+    }
+    &-info {
+        max-width: 36%;
+    }
+    &-desc {
+        margin-bottom: 30px;
+    }
+    &-link {
+        display: flex;
+        gap: 0 25px;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,92 @@
+.testimonials {
+    padding: 100px 0 150px;
+    &-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 50px;
+        position: relative;
+    }
+    &-image {
+        margin: 0 auto;
+        img {
+            width: 470px;
+            height: 588px;
+        }
+    }
+    &-content {
+        margin-top: 70px;
+    }
+    &-heading {
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 1;
+        margin-bottom: 50px;
+        span {
+            display: block;
+        }
+    }
+    &-desc {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 75%;
+    }
+    .user {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: -10%;
+        left: 50%;
+        transform: translateX(-50%);
+        &-image {
+            display: flex;
+            gap: 0 10px;
+            margin-right: 60px;
+            img {
+                border: 1px solid #fff;
+            }
+        }
+        &-name {
+            letter-spacing: normal;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        &-all {
+            display: flex;
+        }
+        &-date {
+            font-size: 14px;
+            font-weight: 600;
+        }
+        &-star {
+            margin-left: 30px;
+            font-size: 12px;
+            color: #000;
+            margin-bottom: 50px;
+        }
+        &-auth {
+            display: flex;
+            gap: 0 10px;
+        }
+        &-btn {
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid #000;
+            &--active, &:hover {
+                border: rgb(212, 212, 212);;
+                background-color: rgb(212, 212, 212);
+            }
+            &--active:hover {
+                border: 1px solid #000;
+                background-color: transparent;
+            }
+        }
+    }
+}
