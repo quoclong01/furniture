@@ -606,6 +606,84 @@ h6 {
   background-color: transparent;
 }
 
+.teams {
+  padding: 80px;
+}
+
+.teams-heading {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 70px;
+}
+
+.teams-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px;
+}
+
+.teams-item {
+  width: 33.33%;
+  margin: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px 30px;
+}
+
+.teams-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.teams-name {
+  color: #72696A;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.teams-class {
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.teams-desc {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.teams-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
+  gap: 0 15px;
+}
+
+.teams-link {
+  color: #474747;
+  font-size: 22px;
+}
+
+.teams-link:hover {
+  opacity: 0.7;
+}
+
 .footer {
   margin-top: 130px;
   margin-bottom: 130px;
